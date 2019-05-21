@@ -16,6 +16,9 @@
 		1A0B11362222810E00D693FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B11352222810E00D693FC /* Assets.xcassets */; };
 		1A0B11392222810E00D693FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B11372222810E00D693FC /* LaunchScreen.storyboard */; };
 		1A0B113F22231B5500D693FC /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B113E22231B5500D693FC /* SwiftyLib.swift */; };
+		E7A95021229479A3004253E4 /* LoginGovBrWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9501E229479A3004253E4 /* LoginGovBrWebView.swift */; };
+		E7A95022229479A3004253E4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9501F229479A3004253E4 /* UIViewExtension.swift */; };
+		E7A95023229479A3004253E4 /* AutenticadorGovBrDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A95020229479A3004253E4 /* AutenticadorGovBrDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		1A0B11382222810E00D693FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A0B113A2222810E00D693FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A0B113E22231B5500D693FC /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
+		E7A9501E229479A3004253E4 /* LoginGovBrWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginGovBrWebView.swift; sourceTree = "<group>"; };
+		E7A9501F229479A3004253E4 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E7A95020229479A3004253E4 /* AutenticadorGovBrDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutenticadorGovBrDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		1A0B111022227A9D00D693FC /* SwiftyLib */ = {
 			isa = PBXGroup;
 			children = (
+				E7A95020229479A3004253E4 /* AutenticadorGovBrDelegate.swift */,
+				E7A9501E229479A3004253E4 /* LoginGovBrWebView.swift */,
+				E7A9501F229479A3004253E4 /* UIViewExtension.swift */,
 				1A0B111122227A9D00D693FC /* SwiftyLib.h */,
 				1A0B111222227A9D00D693FC /* Info.plist */,
 				1A0B113E22231B5500D693FC /* SwiftyLib.swift */,
@@ -264,6 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A95023229479A3004253E4 /* AutenticadorGovBrDelegate.swift in Sources */,
+				E7A95022229479A3004253E4 /* UIViewExtension.swift in Sources */,
+				E7A95021229479A3004253E4 /* LoginGovBrWebView.swift in Sources */,
 				1A0B113F22231B5500D693FC /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
